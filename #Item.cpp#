@@ -1,5 +1,0 @@
-#include "Item.h"
-
-Item::Item(){
-  description = new char[80];
-}
