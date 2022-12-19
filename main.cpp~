@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstring>
+#include <map>
+
+#include "Room.h"
+#include "Item.h"
+
+
+int main(){
+
+ 
+
+
+  cout << "ENDL!!!:" << endl;
+  return 0;
+}
