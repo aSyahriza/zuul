@@ -169,7 +169,8 @@ int main(){
     // Recieves input from the user
     char userInput[20];
     cin.get(userInput,20);
-    cin.get();
+    cin.ignore(9999,'\n');
+    cin.clear();
 
     if(strcmp(userInput,"GO")==0){ 
       go(currentRoom,roomVect, playerInventory);
@@ -219,6 +220,7 @@ int main(){
     }
     
   }
+  cout << "Program ended." << endl;
   
   return 0;
 }

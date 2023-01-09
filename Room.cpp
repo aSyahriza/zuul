@@ -24,5 +24,5 @@ char* Room::getDescription(){
 
 Room::~Room(){
   delete[] name;
-  delete[] char;
+  delete[] description;
 }
